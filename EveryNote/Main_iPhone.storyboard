@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="12F45" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="iz3-lm-Tbp">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="WVL-gc-rNA">
+            <objects>
+                <viewController id="iz3-lm-Tbp" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="2Zo-hd-IiO"/>
+                        <viewControllerLayoutGuide type="bottom" id="3cl-ex-uy0"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ajK-t0-qgV">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7GW-qN-hsp">
+                                <rect key="frame" x="0.0" y="58" width="320" height="510"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </webView>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="896-cL-M2J">
+                                <rect key="frame" x="254" y="20" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="GO">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ogf-Go-Ag7">
+                                <rect key="frame" x="20" y="20" width="226" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="7GW-qN-hsp" firstAttribute="top" secondItem="ogf-Go-Ag7" secondAttribute="bottom" constant="8" id="16B-PY-TyU"/>
+                            <constraint firstItem="7GW-qN-hsp" firstAttribute="leading" secondItem="ajK-t0-qgV" secondAttribute="leading" id="2hZ-dF-4ga"/>
+                            <constraint firstItem="896-cL-M2J" firstAttribute="top" secondItem="2Zo-hd-IiO" secondAttribute="bottom" id="8oy-i8-6ZE"/>
+                            <constraint firstItem="ogf-Go-Ag7" firstAttribute="top" secondItem="2Zo-hd-IiO" secondAttribute="bottom" id="H2o-pt-LYn"/>
+                            <constraint firstItem="3cl-ex-uy0" firstAttribute="top" secondItem="7GW-qN-hsp" secondAttribute="bottom" id="HRa-1i-xnz"/>
+                            <constraint firstItem="ogf-Go-Ag7" firstAttribute="leading" secondItem="ajK-t0-qgV" secondAttribute="leading" constant="20" id="Sia-Jv-pOz"/>
+                            <constraint firstAttribute="trailing" secondItem="ogf-Go-Ag7" secondAttribute="trailing" constant="74" id="Ytj-Xf-0tV"/>
+                            <constraint firstAttribute="trailing" secondItem="7GW-qN-hsp" secondAttribute="trailing" id="gcu-Ns-cSu"/>
+                            <constraint firstAttribute="trailing" secondItem="896-cL-M2J" secondAttribute="trailing" constant="20" id="xK2-N2-4ST"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bdH-25-pOV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="300" y="-14"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
