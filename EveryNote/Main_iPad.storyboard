@@ -4,10 +4,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Tmx Browser View Controler View Controller-->
         <scene sceneID="9PK-Pf-uUf">
             <objects>
-                <viewController id="W5t-fZ-uTg" sceneMemberID="viewController">
+                <viewController id="W5t-fZ-uTg" customClass="tmxBrowserViewControlerViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ls3-oq-kA1"/>
                         <viewControllerLayoutGuide type="bottom" id="UEk-Py-5dU"/>
@@ -22,6 +22,9 @@
                                 <state key="normal" title="Run">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="browseTo:" destination="W5t-fZ-uTg" eventType="touchUpInside" id="zEg-5b-jq4"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tQZ-TA-w2i">
                                 <rect key="frame" x="74" y="20" width="674" height="30"/>
@@ -48,6 +51,10 @@
                             <constraint firstAttribute="trailing" secondItem="evC-7g-npL" secondAttribute="trailing" id="wVW-yH-bav"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="urlField" destination="tQZ-TA-w2i" id="PE4-8M-QqI"/>
+                        <outlet property="webView" destination="evC-7g-npL" id="S4d-mj-sC0"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zwG-R8-qZ8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
