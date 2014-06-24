@@ -24,6 +24,7 @@
 		127BBC7D1959D2E80063D263 /* EveryNoteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 127BBC7C1959D2E80063D263 /* EveryNoteTests.m */; };
 		127BBC871959DFF20063D263 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 127BBC861959DFF20063D263 /* Main_iPhone.storyboard */; };
 		127BBC891959E0240063D263 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 127BBC881959E0240063D263 /* Main_iPad.storyboard */; };
+		127BBC8C1959F9AD0063D263 /* tmxBrowserViewControlerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 127BBC8B1959F9AD0063D263 /* tmxBrowserViewControlerViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,8 @@
 		127BBC7C1959D2E80063D263 /* EveryNoteTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EveryNoteTests.m; sourceTree = "<group>"; };
 		127BBC861959DFF20063D263 /* Main_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_iPhone.storyboard; sourceTree = "<group>"; };
 		127BBC881959E0240063D263 /* Main_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_iPad.storyboard; sourceTree = "<group>"; };
+		127BBC8A1959F9AD0063D263 /* tmxBrowserViewControlerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tmxBrowserViewControlerViewController.h; sourceTree = "<group>"; };
+		127BBC8B1959F9AD0063D263 /* tmxBrowserViewControlerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tmxBrowserViewControlerViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +91,8 @@
 		127BBC451959D2E70063D263 = {
 			isa = PBXGroup;
 			children = (
+				127BBC8A1959F9AD0063D263 /* tmxBrowserViewControlerViewController.h */,
+				127BBC8B1959F9AD0063D263 /* tmxBrowserViewControlerViewController.m */,
 				127BBC861959DFF20063D263 /* Main_iPhone.storyboard */,
 				127BBC881959E0240063D263 /* Main_iPad.storyboard */,
 				127BBC591959D2E70063D263 /* EveryNote */,
@@ -261,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				127BBC641959D2E80063D263 /* tmxAppDelegate.m in Sources */,
+				127BBC8C1959F9AD0063D263 /* tmxBrowserViewControlerViewController.m in Sources */,
 				127BBC671959D2E80063D263 /* EveryNote.xcdatamodeld in Sources */,
 				127BBC601959D2E70063D263 /* main.m in Sources */,
 			);
