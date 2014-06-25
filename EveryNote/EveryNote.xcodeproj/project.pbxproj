@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		12691482195A31E900BE6414 /* tmxNotesListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12691481195A31E900BE6414 /* tmxNotesListViewController.m */; };
+		12691485195A321900BE6414 /* tmxAddNoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12691484195A321900BE6414 /* tmxAddNoteViewController.m */; };
 		127BBC521959D2E70063D263 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 127BBC511959D2E70063D263 /* Foundation.framework */; };
 		127BBC541959D2E70063D263 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 127BBC531959D2E70063D263 /* CoreGraphics.framework */; };
 		127BBC561959D2E70063D263 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 127BBC551959D2E70063D263 /* UIKit.framework */; };
@@ -38,6 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		12691480195A31E900BE6414 /* tmxNotesListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tmxNotesListViewController.h; sourceTree = "<group>"; };
+		12691481195A31E900BE6414 /* tmxNotesListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tmxNotesListViewController.m; sourceTree = "<group>"; };
+		12691483195A321900BE6414 /* tmxAddNoteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tmxAddNoteViewController.h; sourceTree = "<group>"; };
+		12691484195A321900BE6414 /* tmxAddNoteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tmxAddNoteViewController.m; sourceTree = "<group>"; };
 		127BBC4E1959D2E70063D263 /* EveryNote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EveryNote.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		127BBC511959D2E70063D263 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		127BBC531959D2E70063D263 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -94,6 +100,10 @@
 				127BBC8A1959F9AD0063D263 /* tmxBrowserViewControlerViewController.h */,
 				127BBC8B1959F9AD0063D263 /* tmxBrowserViewControlerViewController.m */,
 				127BBC861959DFF20063D263 /* Main_iPhone.storyboard */,
+				12691483195A321900BE6414 /* tmxAddNoteViewController.h */,
+				12691484195A321900BE6414 /* tmxAddNoteViewController.m */,
+				12691480195A31E900BE6414 /* tmxNotesListViewController.h */,
+				12691481195A31E900BE6414 /* tmxNotesListViewController.m */,
 				127BBC881959E0240063D263 /* Main_iPad.storyboard */,
 				127BBC591959D2E70063D263 /* EveryNote */,
 				127BBC761959D2E80063D263 /* EveryNoteTests */,
@@ -266,8 +276,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				127BBC641959D2E80063D263 /* tmxAppDelegate.m in Sources */,
+				12691482195A31E900BE6414 /* tmxNotesListViewController.m in Sources */,
 				127BBC8C1959F9AD0063D263 /* tmxBrowserViewControlerViewController.m in Sources */,
 				127BBC671959D2E80063D263 /* EveryNote.xcdatamodeld in Sources */,
+				12691485195A321900BE6414 /* tmxAddNoteViewController.m in Sources */,
 				127BBC601959D2E70063D263 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
